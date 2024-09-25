@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+li .button-container {
+    display: flex;
+    gap: 10px;
+}
+
+li button {
+    background-color: #ff4757;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #e84118;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+li.completed button {
+    text-decoration: none;
+    opacity: 1;
+}
+
+li .complete-btn {
+    background-color: #4caf50;
+}
+
+li .complete-btn:hover {
+    background-color: #43a047;
+}
+
+li.completed .complete-btn {
+    background-color: #a5d6a7;
+}
+
+li.completed .complete-btn:hover {
+    background-color: #81c784;
+}
+
+li.completed .delete-btn {
+    background-color: #ff4757;
+}
